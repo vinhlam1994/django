@@ -1,0 +1,25 @@
+* {
+    color: blue;
+}
+
+h1 {
+    color: red;
+}
+
+#mint_color {
+    color: mediumspringgreen;
+}
+
+.center {
+    text-align: center;
+    color: maroon;
+}
+
+p.light {
+    text-align: right;
+    color: blueviolet;
+}
+body {
+    background-image: url("6057300.jpg");
+    background-repeat: repeat-x;
+}
