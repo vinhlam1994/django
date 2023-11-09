@@ -2,8 +2,14 @@
 <html>
 <body>
 
-{% for x in fruits %}
-  <h1>{{ x }}</h1>
+<ul>
+    {% for x in mymembers %}
+        <li>{{ x.firstname }}</li>
+    {% endfor %}
+</ul>
+
+{% for i in x %}
+  <h1>{{ i }}</h1>
 {% endfor %}
 
 <p>In views.py you can see what the fruits variable looks like.</p>
