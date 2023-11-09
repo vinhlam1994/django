@@ -1,0 +1,14 @@
+{% extends "master.html" %}
+
+{% block title %}
+  Details about - {{ mymember.firstname }} {{ mymember.lastname }}
+{% endblock %}
+
+{% block content %}
+    <h1>{{ mymember.firstname }} {{ mymember.lastname }}</h1>
+
+    <p>Age: {{ mymember.membersAge }}</p>
+    <p>Member level: {{ memberLevel.danLevel }}</p>
+    
+    <p>Back to <a href="/members">Members</a></p>
+{% endblock %}
