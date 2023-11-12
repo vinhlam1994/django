@@ -12,5 +12,6 @@ class Member(models.Model):
 class Level(models.Model):
     firstname = models.ForeignKey(Member, on_delete=models.CASCADE)
     danLevel = models.IntegerField(default=0)
+
     def __str__(self):
         return f"{self.firstname}: {self.danLevel}"
