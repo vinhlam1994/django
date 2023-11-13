@@ -79,10 +79,10 @@ DATABASES = {
     'default': {
         # 'ENGINE': 'django.db.backends.sqlite3',
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'kendoclub',
+        'NAME': 'postgres',
         'USER': 'postgres',
-        'PASSWORD': 'Doov@1994',
-        'HOST': 'localhost',
+        'PASSWORD': 'Doov!30073',
+        'HOST': 'mydata-lab-w3s.cguwyv6rxrl8.us-east-1.rds.amazonaws.com',
         'PORT': '5432',
     }
 }
