@@ -1,18 +1,23 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
+  <link rel="stylesheet" href="{% static 'myglobal.css' %}">
 <body>
 
-<ul>
+  <table border='1'>
+    <tr>
+      <th>ID</th>
+      <th>Firstname</th>
+      <th>Lastname</th>
+    </tr>
     {% for x in mymembers %}
-        <li>{{ x.firstname }}</li>
+      <tr>
+        <td>{{ x.id }}</td>
+        <td>{{ x.firstname }}</td>
+        <td>{{ x.lastname }}</td>
+      </tr>
     {% endfor %}
-</ul>
-
-{% for i in x %}
-  <h1>{{ i }}</h1>
-{% endfor %}
-
-<p>In views.py you can see what the fruits variable looks like.</p>
+  </table>
 
 </body>
 </html>
