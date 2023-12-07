@@ -24,7 +24,7 @@ class Service(models.Model):
 # Recent Work Model
 class RecentWork(models.Model):
     title = models.CharField(max_length=100, verbose_name="Work title")
-    image = models.ImageField(upload_to="Works")
+    image = models.ImageField(upload_to="works")
 
     def __str__(self):
         return self.title
